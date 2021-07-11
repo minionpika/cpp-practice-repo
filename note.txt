@@ -1,0 +1,22 @@
+
+string ################################
+
+str4.clear();
+str6.length(); or str6.size();
+str6.at(2);
+char ch_f = str6.front();
+char ch_b = str6.back();
+
+const char* charstr = str6.c_str(); 
+printf("%s\n", charstr);
+
+str4.append(str6, 0, 6);
+
+if (str6.find(str4) != string::npos) 
+		cout << "str4 found in str6 at " << str6.find(str4)
+
+str6.substr(7, 3)
+str6.erase(7, 4);
+str6.replace(2, 7, "ese are test");
+
+In general, nums[i][j] is equivalent to *(*(nums+i)+j)
