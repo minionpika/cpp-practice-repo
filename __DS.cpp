@@ -3,7 +3,7 @@ using namespace std;
 
 void DEBUG(int d)
 {
-    cout << "----------\t" << d << "\t--------------" << endl;
+    cout << "----------\t" << d << "\t--------------:)" << endl;
 }
 
 class singlyNode
